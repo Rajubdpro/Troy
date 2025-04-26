@@ -1,11 +1,9 @@
 <template>
-  <Nav></Nav>
   <Banner></Banner>
   <NewArrivals title="New Arrivals" className2="hidden" :items="newArrivals"></NewArrivals>
   <Categories></Categories>
   <NewArrivals title="Best Selling Products" className1="hidden" :items="best_selling"></NewArrivals>
   <ExploreProduct></ExploreProduct>
-  <Footer></Footer>
 </template>
 
 

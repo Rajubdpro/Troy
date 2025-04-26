@@ -42,9 +42,12 @@ import logo from "@/assets/images/logo.png";
         </div>
         <div class="w-[17%]">
           <div class="flex space-x-4 justify-end pt-2">
-            <p><i class="fa-regular fa-heart text-[18px] text-[#000] hover:bg-[#DB4444] w-[32px] h-[32px] rounded-full text-center hover:text-white !leading-8"></i></p>
-            <p class="relative"><i class="fa-solid fa-cart-shopping text-[18px] text-[#000] hover:bg-[#DB4444] w-[32px] h-[32px] rounded-full text-center hover:text-white !leading-8"></i>
-            <span class="bg-[#DB4444] text-white rounded-full inline-block text-center !reading-[16px] w-[16px] text-[12px] font-poppins h-[16px] top-0 right-0 absolute">2</span>
+            <p><RouterLink to="/wishlist"><i class="fa-regular fa-heart text-[18px] text-[#000] hover:bg-[#DB4444] w-[32px] h-[32px] rounded-full text-center hover:text-white !leading-8"></i></RouterLink></p>
+            <p class="relative">
+              <RouterLink to="/cart">
+                <i class="fa-solid fa-cart-shopping text-[18px] text-[#000] hover:bg-[#DB4444] w-[32px] h-[32px] rounded-full text-center hover:text-white !leading-8"></i>
+                <span class="absolute -top-2 -right-2 bg-[#DB4444] text-[#fff] w-[20px] h-[20px] rounded-full text-center leading-5">5</span>
+              </RouterLink>
             </p>
             <p><i class="fa-solid fa-user text-[18px] text-[#000] hover:bg-[#DB4444] w-[32px] h-[32px] rounded-full text-center hover:text-white !leading-8"></i></p>
           </div>
